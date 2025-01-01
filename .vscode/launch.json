@@ -1,0 +1,42 @@
+{
+    // Use IntelliSense to learn about possible attributes.
+    // Hover to view descriptions of existing attributes.
+    // For more information, visit: https://go.microsoft.com/fwlink/?linkid=830387
+    "version": "0.2.0",
+    "configurations": [
+        {
+            "name": "revolt_client",
+            "request": "launch",
+            "type": "dart",
+        },
+        {
+            "name": "revolt_client(no mock)",
+            "request": "launch",
+            "type": "dart",
+            "toolArgs": [
+                "--dart-define",
+                "NO-MOCK=true",
+            ],
+            "codeLens": {
+                "for": [
+                    // "run-test",
+                    // "run-test-file",
+                    "debug-test",
+                    "debug-test-file"
+                ],
+                "title": "${debugType} (no mock)" },
+        },
+        {
+            "name": "revolt_client (profile mode)",
+            "request": "launch",
+            "type": "dart",
+            "flutterMode": "profile"
+        },
+        {
+            "name": "revolt_client (release mode)",
+            "request": "launch",
+            "type": "dart",
+            "flutterMode": "release"
+        }
+    ]
+}
