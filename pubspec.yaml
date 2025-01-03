@@ -8,24 +8,24 @@ environment:
   flutter: ">=1.17.0"
 
 dependencies:
+  collection: ^1.19.0
+  copy_with_extension: ^5.0.4
   flutter:
     sdk: flutter
-  copy_with_extension: ^5.0.4
   freezed_annotation: ^2.0.3
   http: ^1.2.2
   json_annotation: ^4.9.0
   rxdart: ^0.28.0
-  shared_preferences: 2.3.1
-  web_socket_channel: ^3.0.1
+  shared_preferences: ^2.3.5
   uuid: ^4.5.1
-  collection: ^1.19.0
+  web_socket_channel: ^3.0.1
 
 dev_dependencies:
-  flutter_test:
-    sdk: flutter
-  flutter_lints: ^5.0.0
   build_runner: ^2.1.5
   copy_with_extension_gen: ^5.0.4
+  flutter_lints: ^5.0.0
+  flutter_test:
+    sdk: flutter
   json_serializable: ^6.0.1
   lints: ^5.1.0
   mockito: ^5.0.16
